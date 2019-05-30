@@ -1,3 +1,3 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
-  create 
+  create_table(:students)
 end
